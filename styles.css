@@ -24,6 +24,7 @@ body {
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
+  overflow-x: hidden;
 }
 
 body::before {
@@ -47,6 +48,7 @@ h2,
 h3,
 h4 {
   margin-top: 0;
+  overflow-wrap: break-word;
 }
 
 img {
@@ -144,6 +146,14 @@ img {
   align-items: center;
   gap: 48px;
   padding-top: 68px;
+}
+
+.hero-content,
+.project-body,
+.section-heading,
+.two-column,
+.project-card {
+  min-width: 0;
 }
 
 .eyebrow {
@@ -576,6 +586,57 @@ h4 {
 }
 
 @media (max-width: 520px) {
+  .section {
+    width: calc(100vw - 28px);
+    max-width: calc(100vw - 28px);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .nav,
+  .section {
+    max-width: 362px;
+  }
+
+  .nav {
+    width: calc(100vw - 28px);
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+
+  .hero-content,
+  .hero-panel,
+  .project-card,
+  .project-body,
+  .project-visual,
+  .education-card,
+  .tag-list,
+  .section-heading,
+  .two-column {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 2.55rem;
+  }
+
+  h2 {
+    font-size: 1.85rem;
+  }
+
+  .tool-line {
+    max-width: 100%;
+    font-size: 0.96rem;
+    line-height: 1.45;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
+
+  .hero-copy {
+    max-width: 100%;
+    font-size: 1.03rem;
+  }
+
   .brand span:last-child {
     display: none;
   }
@@ -586,6 +647,7 @@ h4 {
 
   .hero-actions,
   .contact-actions {
+    display: grid;
     width: 100%;
   }
 

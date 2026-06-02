@@ -38,6 +38,7 @@ Current assets:
 - `assets/rfm_revenue_by_segment.png` - Generated RFM revenue-by-segment chart.
 - `assets/rfm_customers_by_segment.png` - Generated RFM customers-by-segment chart.
 - `assets/sql_data_quality_findings.png` - Generated SQL data-quality findings chart.
+- `assets/pipeline_workflow_visual.png` - Generated Week 8 pipeline workflow visual.
 
 ## Evidence Sources
 
@@ -53,6 +54,8 @@ Public findings are based on the source portfolio repository:
 - `DACA-portfolio/week2-sql-data-cleaning/README.md`
 - `DACA-portfolio/week2-sql-data-cleaning/team/week2_group_project.sql`
 - `DACA-portfolio/portfolio-evidence/verification-log.md`
+- `DACA-portfolio/portfolio-evidence/outputs/pipeline_summary.md`
+- `DACA-portfolio/portfolio-evidence/outputs/pipeline_output_summary.csv`
 
 ## Reproduced vs Documented Findings
 
@@ -73,12 +76,16 @@ Documented evidence, not rerun locally:
 - 380 missing email values.
 - 12 city naming variations.
 
+Workflow evidence reproduced from Week 8 execution:
+
+- Week 8 pipeline tests passed.
+- Week 8 pipeline exported 24 HTML reports using configured sample-data fallback.
+- Public copy uses Week 8 as a workflow/pipeline project, not as live UrbanStyle KPI evidence.
+
 See `DACA-portfolio/portfolio-evidence/verification-log.md` for the full
 classification.
 
-## Manual Updates Still Needed
+## Optional Improvements
 
-- Replace `https://www.linkedin.com/in/REPLACE-WITH-RAGNAR-LAAK` in
-  `index.html` with the real LinkedIn profile URL.
 - Optionally improve the Power BI screenshots later with higher-resolution
   exports if available.
