@@ -41,19 +41,34 @@
           <a class="button secondary" href="https://github.com/ragnarlaak" target="_blank" rel="noreferrer">GitHub</a>
           <a class="button secondary" href="https://ee.linkedin.com/in/ragnar-laak-612249230" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
+        <div class="hero-proof" aria-label="Portfolio evidence summary">
+          <span>Power BI dashboards</span>
+          <span>RFM segmentation</span>
+          <span>SQL data quality</span>
+          <span>Python pipeline</span>
+        </div>
       </div>
-      <aside class="hero-panel" aria-label="Portfolio summary">
-        <div class="metric">
-          <span class="metric-value">3</span>
-          <span class="metric-label">Evidence-backed case studies</span>
+      <aside class="hero-showcase" aria-label="Featured analytics evidence">
+        <div class="showcase-header">
+          <span>Flagship evidence</span>
+          <strong>Power BI</strong>
         </div>
-        <div class="metric">
-          <span class="metric-value">2,540</span>
-          <span class="metric-label">RFM customers analysed</span>
+        <div class="showcase-image">
+          <img src="assets/powerbi-dashboard.png" alt="UrbanStyle Power BI dashboard preview">
         </div>
-        <div class="metric">
-          <span class="metric-value">SQL + BI</span>
-          <span class="metric-label">Data quality, dashboards and reporting</span>
+        <div class="showcase-metrics">
+          <div>
+            <strong>~€2.91M</strong>
+            <span>revenue analysed</span>
+          </div>
+          <div>
+            <strong>19.08%</strong>
+            <span>2024 growth</span>
+          </div>
+          <div>
+            <strong>2,540</strong>
+            <span>RFM customers</span>
+          </div>
         </div>
       </aside>
     </section>
@@ -76,45 +91,48 @@
       </div>
 
       <div class="project-grid">
-        <article class="project-card">
-          <div class="project-visual">
+        <article class="case-study flagship-case">
+          <div class="case-media dashboard-media">
             <img src="assets/powerbi-dashboard.png" alt="UrbanStyle Power BI sales performance dashboard screenshot" loading="lazy">
           </div>
-          <div class="project-body">
+          <div class="case-content">
             <div class="project-title-row">
-              <h3>Sales Performance Dashboard</h3>
+              <div>
+                <p class="case-label">Flagship Power BI case study</p>
+                <h3>Sales Performance Dashboard</h3>
+              </div>
               <div class="pill-row">
                 <span class="tool-pill">Power BI</span>
                 <span class="tool-pill">DAX</span>
-                <span class="tool-pill">Reporting</span>
+                <span class="tool-pill">Business Reporting</span>
               </div>
             </div>
             <p class="project-question">How did UrbanStyle perform, and where is growth lagging?</p>
-            <div class="kpi-grid">
+            <div class="kpi-grid kpi-grid-flagship">
               <div><strong>~€2.91M</strong><span>revenue analysed</span></div>
               <div><strong>~10K</strong><span>orders</span></div>
-              <div><strong>19.08%</strong><span>2024 vs 2023 growth</span></div>
-              <div><strong>~13%</strong><span>Tartu growth</span></div>
+              <div><strong>19.08%</strong><span>2024 vs 2023 revenue growth</span></div>
+              <div><strong>~13%</strong><span>Tartu growth, below company growth</span></div>
             </div>
-            <div class="case-block">
-              <h4>Why it matters</h4>
-              <p>UrbanStyle grew overall, but Tartu grew more slowly than the company, turning a broad growth question into a clearer location-level follow-up.</p>
+            <div class="finding-box">
+              <h4>Key finding</h4>
+              <p>UrbanStyle grew overall. Tartu also grew, but at a lower rate than the company, which makes it the right location for deeper follow-up analysis.</p>
             </div>
             <div class="case-block">
               <h4>Recommendation</h4>
-              <p>Compare Tartu product mix, average order value and customer segments with stronger-performing locations or channels.</p>
+              <p>Investigate Tartu product mix, average order value and customer segments against stronger-performing locations or channels.</p>
             </div>
             <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week5-power-bi" target="_blank" rel="noreferrer">View Power BI evidence</a>
           </div>
         </article>
 
-        <article class="project-card reverse">
-          <div class="project-visual">
-            <img src="assets/rfm_revenue_by_segment.png" alt="RFM revenue by customer segment chart" loading="lazy">
-          </div>
-          <div class="project-body">
+        <article class="case-study analysis-case">
+          <div class="case-content">
             <div class="project-title-row">
-              <h3>RFM Customer Segmentation</h3>
+              <div>
+                <p class="case-label">Verified Python/pandas analysis</p>
+                <h3>RFM Customer Segmentation</h3>
+              </div>
               <div class="pill-row">
                 <span class="tool-pill">Python</span>
                 <span class="tool-pill">pandas</span>
@@ -128,25 +146,28 @@
               <div><strong>758</strong><span>Potential customers</span></div>
               <div><strong>533</strong><span>At Risk customers</span></div>
             </div>
-            <div class="case-block">
-              <h4>Why it matters</h4>
-              <p>VIP Champions are a smaller group with high monetary value, while Potential and At Risk segments show where repeat-purchase and retention actions can be focused.</p>
+            <div class="finding-box">
+              <h4>Takeaway</h4>
+              <p>VIP Champions are a smaller customer group but contribute the largest share of monetary value.</p>
             </div>
             <div class="case-block">
-              <h4>Recommendation</h4>
+              <h4>Action</h4>
               <p>Protect VIP Champions with loyalty offers, move Potential customers toward repeat purchases, and target At Risk customers before they become Lost.</p>
             </div>
             <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week7-python" target="_blank" rel="noreferrer">View RFM evidence</a>
           </div>
+          <div class="case-media chart-media">
+            <img src="assets/rfm_revenue_by_segment.png" alt="RFM revenue by customer segment chart" loading="lazy">
+          </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-visual">
-            <img src="assets/sql_data_quality_findings.png" alt="SQL data quality findings chart" loading="lazy">
-          </div>
-          <div class="project-body">
+        <article class="case-study compact-case">
+          <div class="case-content">
             <div class="project-title-row">
-              <h3>SQL Data Quality Analysis</h3>
+              <div>
+                <p class="case-label">SQL data-quality evidence</p>
+                <h3>SQL Data Quality Analysis</h3>
+              </div>
               <div class="pill-row">
                 <span class="tool-pill">SQL</span>
                 <span class="tool-pill">Supabase</span>
@@ -154,30 +175,30 @@
               </div>
             </div>
             <p class="project-question">Is customer data reliable enough for reporting and segmentation?</p>
-            <div class="kpi-grid">
+            <div class="issue-grid">
               <div><strong>128</strong><span>duplicate email records</span></div>
               <div><strong>380</strong><span>missing email values</span></div>
               <div><strong>12</strong><span>city naming variations</span></div>
             </div>
-            <div class="case-block">
-              <h4>Why it matters</h4>
-              <p>Duplicate, missing and inconsistent customer fields can weaken segmentation, campaign targeting and location-level reporting.</p>
+            <div class="finding-box">
+              <h4>Business impact</h4>
+              <p>These issues can reduce reporting reliability and weaken customer segmentation or location-based analysis.</p>
             </div>
             <div class="case-block">
-              <h4>Recommendation</h4>
-              <p>Standardise city values, resolve duplicate emails and strengthen required-field validation before using customer data for reporting or campaigns.</p>
+              <h4>Recommended action</h4>
+              <p>Standardise location values, resolve duplicate records and strengthen required-field validation before reporting or campaign use.</p>
             </div>
             <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week2-sql-data-cleaning" target="_blank" rel="noreferrer">View SQL evidence</a>
           </div>
         </article>
 
-        <article class="project-card reverse">
-          <div class="project-visual">
-            <img src="assets/pipeline_workflow_visual.png" alt="Week 8 Python API pipeline workflow visual" loading="lazy">
-          </div>
-          <div class="project-body">
+        <article class="case-study pipeline-case">
+          <div class="case-content">
             <div class="project-title-row">
-              <h3>Python API Pipeline</h3>
+              <div>
+                <p class="case-label">Additional workflow project</p>
+                <h3>Python API Pipeline</h3>
+              </div>
               <div class="pill-row">
                 <span class="tool-pill">Python</span>
                 <span class="tool-pill">pandas</span>
@@ -185,18 +206,19 @@
               </div>
             </div>
             <p class="project-question">How can recurring customer and sales analysis be refreshed without manually repeating notebook work?</p>
-            <div class="kpi-grid">
-              <div><strong>24</strong><span>HTML reports exported in test run</span></div>
-              <div><strong>4/4</strong><span>pipeline tests passed</span></div>
-              <div><strong>4</strong><span>orchestrated stages</span></div>
+            <div class="process-grid" aria-label="Pipeline workflow">
+              <span>Extract</span>
+              <span>Transform</span>
+              <span>Validate</span>
+              <span>Export</span>
+            </div>
+            <div class="finding-box">
+              <h4>Workflow outcome</h4>
+              <p>The pipeline executed with its configured sample-data fallback, passed 4/4 tests, validated core outputs and exported HTML reports. Public portfolio copy treats this as workflow evidence, not as live UrbanStyle KPI evidence.</p>
             </div>
             <div class="case-block">
-              <h4>Why it matters</h4>
-              <p>The project turns notebook-style analysis into a repeatable workflow for data retrieval, cleaning, validation and report export.</p>
-            </div>
-            <div class="case-block">
-              <h4>Recommendation</h4>
-              <p>Use the pipeline pattern to standardise recurring analysis refreshes and reduce manual extraction steps before reporting.</p>
+              <h4>Reporting purpose</h4>
+              <p>Standardise recurring data preparation and reporting exports so analysis refreshes are less dependent on manual notebook steps.</p>
             </div>
             <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week8-python-api-pipeline" target="_blank" rel="noreferrer">View pipeline evidence</a>
           </div>
