@@ -15,3 +15,21 @@ if (navToggle && navLinks) {
     });
   });
 }
+
+const profileImage = document.querySelector('.profile-photo img');
+
+if (profileImage) {
+  const profileFrame = profileImage.closest('.profile-photo');
+
+  if (profileImage.complete && profileImage.naturalWidth > 0) {
+    profileFrame.classList.add('is-loaded');
+  }
+
+  profileImage.addEventListener('load', () => {
+    profileFrame.classList.add('is-loaded');
+  });
+
+  profileImage.addEventListener('error', () => {
+    profileFrame.classList.remove('is-loaded');
+  });
+}
