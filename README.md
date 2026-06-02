@@ -34,11 +34,7 @@ Website visuals are stored in `assets/`.
 Current assets:
 
 - `assets/powerbi-dashboard.png` - Week 5 Power BI sales dashboard screenshot.
-- `assets/tartu-storytelling-dashboard.png` - Week 6 Tartu storytelling dashboard screenshot.
-- `assets/rfm_revenue_by_segment.png` - Generated RFM revenue-by-segment chart.
-- `assets/rfm_customers_by_segment.png` - Generated RFM customers-by-segment chart.
-- `assets/sql_data_quality_findings.png` - Generated SQL data-quality findings chart.
-- `assets/pipeline_workflow_visual.png` - Generated Week 8 pipeline workflow visual.
+- `assets/rfm_revenue_by_segment.png` - RFM revenue-by-segment chart.
 
 ## Evidence Sources
 
@@ -50,12 +46,10 @@ Public findings are based on the source portfolio repository:
 - `DACA-portfolio/week6-data-storytelling/README.md`
 - `DACA-portfolio/week6-data-storytelling/individual/week6_tartu_dashboard_storytelling.png`
 - `DACA-portfolio/week7-python/team/rfm_segments.csv`
-- `DACA-portfolio/portfolio-evidence/outputs/rfm_segment_summary.csv`
 - `DACA-portfolio/week2-sql-data-cleaning/README.md`
 - `DACA-portfolio/week2-sql-data-cleaning/team/week2_group_project.sql`
-- `DACA-portfolio/portfolio-evidence/verification-log.md`
-- `DACA-portfolio/portfolio-evidence/outputs/pipeline_summary.md`
-- `DACA-portfolio/portfolio-evidence/outputs/pipeline_output_summary.csv`
+- `DACA-portfolio/week8-python-api-pipeline/team/README.md`
+- `DACA-portfolio/week8-python-api-pipeline/team/pipeline.py`
 
 ## Reproduced vs Documented Findings
 
@@ -81,9 +75,6 @@ Workflow evidence reproduced from Week 8 execution:
 - Week 8 pipeline tests passed.
 - Week 8 pipeline exported 24 HTML reports using configured sample-data fallback.
 - Public copy uses Week 8 as a workflow/pipeline project, not as live UrbanStyle KPI evidence.
-
-See `DACA-portfolio/portfolio-evidence/verification-log.md` for the full
-classification.
 
 ## Optional Improvements
 
