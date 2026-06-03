@@ -393,8 +393,9 @@ h4 {
 .showcase-metrics strong {
   display: block;
   color: var(--text);
-  font-size: 1.5rem;
+  font-size: clamp(1.18rem, 1.8vw, 1.5rem);
   line-height: 1;
+  white-space: nowrap;
 }
 
 .showcase-metrics div:nth-child(2) strong {
@@ -433,6 +434,8 @@ h4 {
 .metric-label,
 .section-heading + p,
 .two-column p,
+.context-note,
+.evidence-note,
 .case-block p,
 .case-block li,
 .education-card p,
@@ -455,6 +458,14 @@ h4 {
 .two-column p {
   margin-bottom: 0;
   font-size: 1.05rem;
+}
+
+.context-note {
+  margin: 26px 0 0;
+  border-left: 3px solid var(--accent);
+  background: rgba(33, 182, 168, 0.075);
+  padding: 14px 16px;
+  font-weight: 700;
 }
 
 .project-grid {
@@ -564,6 +575,11 @@ h4 {
   margin-bottom: 18px;
 }
 
+.evidence-note {
+  margin: -4px 0 16px;
+  font-size: 0.86rem;
+}
+
 .project-question {
   margin-bottom: 18px;
   color: var(--text);
@@ -655,7 +671,7 @@ h4 {
   display: block;
   margin-bottom: 3px;
   color: var(--accent-strong);
-  font-size: clamp(1.22rem, 2vw, 1.55rem);
+  font-size: clamp(1.12rem, 1.8vw, 1.5rem);
   line-height: 1.05;
 }
 
