@@ -35,7 +35,7 @@ Current assets:
 
 - `assets/ragnar-laak-profile.jpg` - Profile image used in the hero section.
 - `assets/powerbi-dashboard.png` - Week 5 Power BI sales dashboard screenshot.
-- `assets/rfm_revenue_by_segment.png` - RFM revenue-by-segment chart.
+- `assets/rfm_revenue_by_segment_eur.png` - RFM revenue-by-segment chart with euro labels.
 
 ## Evidence Sources
 
