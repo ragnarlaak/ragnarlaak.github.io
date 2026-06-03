@@ -1,7 +1,7 @@
 # Ragnar Laak Portfolio Website
 
 This repository contains Ragnar Laak's public recruiter-facing portfolio
-website for entry-level BI / Data Analyst roles.
+website for BI / Data Analyst and related analyst roles.
 
 The site is built with plain HTML, CSS and minimal vanilla JavaScript. There is
 no framework, package manager, build step or external dependency.
