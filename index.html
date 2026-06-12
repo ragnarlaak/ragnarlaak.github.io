@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ragnar Laak is a Junior Data Analyst in Estonia using SQL and Power BI to turn business data into clear insights, dashboards and decisions.">
+  <meta name="description" content="Ragnar Laak is a Junior Data Analyst in Estonia using SQL and Power BI to turn business data into clear dashboards, business insights and decisions.">
   <meta property="og:title" content="Ragnar Laak | Junior Data Analyst">
   <meta property="og:description" content="SQL and Power BI portfolio focused on business insights, reporting, data quality and customer analysis.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ragnarlaak.github.io/">
-  <meta property="og:image" content="https://ragnarlaak.github.io/assets/powerbi-dashboard.png">
+  <meta property="og:image" content="https://ragnarlaak.github.io/assets/tartu-dashboard.png">
   <title>Ragnar Laak | Junior Data Analyst</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -35,26 +35,26 @@
       <div class="hero-copy">
         <p class="eyebrow">Junior Data Analyst</p>
         <h1 id="hero-title">Ragnar Laak</h1>
-        <p class="hero-statement">I use SQL and Power BI to turn business data into clear analysis, dashboards and actionable insights.</p>
-        <p class="hero-support">Focused on data cleaning, KPI reporting, customer analysis and business decisions for operations-driven teams.</p>
+        <p class="hero-statement">I use SQL and Power BI to turn business data into clear dashboards, analysis and actionable insights.</p>
+        <p class="hero-support">Operations-minded analyst focused on data quality, KPI reporting, customer segmentation and business decisions.</p>
         <div class="hero-actions" aria-label="Primary actions">
           <a class="button primary" href="#projects">View Projects</a>
           <a class="button secondary" href="#contact">Contact</a>
         </div>
       </div>
 
-      <aside class="hero-proof" aria-label="Portfolio proof points">
-        <div>
-          <span>Core tools</span>
-          <strong>SQL + Power BI</strong>
+      <aside class="hero-dashboard" aria-label="Featured Power BI dashboard preview">
+        <div class="dashboard-frame">
+          <div class="dashboard-bar">
+            <span>Power BI case study</span>
+            <strong>Tartu store growth</strong>
+          </div>
+          <img src="assets/tartu-dashboard.png" alt="Tartu Power BI dashboard showing KPI cards, monthly revenue trend, executive summary and top products" loading="eager">
         </div>
-        <div>
-          <span>Business focus</span>
-          <strong>Insights for decisions</strong>
-        </div>
-        <div>
-          <span>Location</span>
-          <strong>Tallinn, Estonia</strong>
+        <div class="proof-strip" aria-label="Portfolio proof points">
+          <div><strong>19.08%</strong><span>company growth</span></div>
+          <div><strong>13%</strong><span>Tartu growth</span></div>
+          <div><strong>SQL + Power BI</strong><span>core stack</span></div>
         </div>
       </aside>
     </section>
@@ -62,20 +62,20 @@
     <section class="section skills" aria-labelledby="skills-title">
       <div class="section-heading">
         <p class="eyebrow">Skills</p>
-        <h2 id="skills-title">Simple, business-focused analytics stack</h2>
+        <h2 id="skills-title">Tools I use to answer business questions</h2>
       </div>
       <div class="skills-grid">
         <article>
           <h3>Data Analysis</h3>
-          <p>SQL (core), Excel</p>
+          <p>SQL (core), Excel, data cleaning, KPI logic</p>
         </article>
         <article>
           <h3>BI Tools</h3>
-          <p>Power BI (primary), Tableau (secondary)</p>
+          <p>Power BI (primary), Tableau (secondary), dashboard storytelling</p>
         </article>
         <article>
           <h3>Programming</h3>
-          <p>Python, pandas</p>
+          <p>Python, pandas, repeatable reporting workflows</p>
         </article>
       </div>
     </section>
@@ -87,13 +87,43 @@
       </div>
 
       <div class="project-list">
-        <article class="project-card featured-project">
+        <article class="project-card flagship-project">
+          <div class="project-media">
+            <img src="assets/tartu-dashboard.png" alt="Tartu Power BI dashboard with executive summary and revenue trend" loading="lazy">
+          </div>
           <div class="project-content">
+            <p class="project-label">Featured Power BI project</p>
+            <h3>Tartu Store Growth Analysis</h3>
+            <dl>
+              <div class="project-detail">
+                <dt>Business Problem</dt>
+                <dd>Is Tartu underperforming, or is it growing at a different pace than the wider business?</dd>
+              </div>
+              <div class="project-detail">
+                <dt>Tools Used</dt>
+                <dd>Power BI, DAX, SQL-style KPI logic</dd>
+              </div>
+              <div class="project-detail">
+                <dt>Key Insight</dt>
+                <dd>Tartu grew 13% in 2024, but the company grew 19.08%, so the issue is slower relative growth rather than decline.</dd>
+              </div>
+              <div class="project-detail">
+                <dt>Business Recommendation</dt>
+                <dd>Compare Tartu product mix, average order value and customer segments against stronger locations and online sales.</dd>
+              </div>
+            </dl>
+            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/portfolio-evidence-final/week6-data-storytelling" target="_blank" rel="noreferrer">GitHub Link</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-content">
+            <p class="project-label">SQL + reporting</p>
             <h3>Retail Sales Performance Dashboard</h3>
             <dl>
               <div class="project-detail">
                 <dt>Business Problem</dt>
-                <dd>Is UrbanStyle growing, and which location needs management attention?</dd>
+                <dd>Is UrbanStyle growing overall, and what should leadership investigate next?</dd>
               </div>
               <div class="project-detail">
                 <dt>Tools Used</dt>
@@ -101,16 +131,16 @@
               </div>
               <div class="project-detail">
                 <dt>Key Insight</dt>
-                <dd>Revenue grew 19.08% in 2024 versus 2023, but Tartu grew only about 13%, making it the priority location for follow-up analysis.</dd>
+                <dd>The dashboard view showed about EUR 2.91M revenue, about 10K orders and 19.08% revenue growth in 2024 versus 2023.</dd>
               </div>
             </dl>
-            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week5-power-bi" target="_blank" rel="noreferrer">GitHub Link</a>
+            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/portfolio-evidence-final/week5-power-bi" target="_blank" rel="noreferrer">GitHub Link</a>
           </div>
-          <img src="assets/powerbi-dashboard.png" alt="Power BI sales performance dashboard screenshot" loading="lazy">
         </article>
 
         <article class="project-card">
           <div class="project-content">
+            <p class="project-label">Python analysis</p>
             <h3>Customer Segmentation for Retention</h3>
             <dl>
               <div class="project-detail">
@@ -126,12 +156,13 @@
                 <dd>455 VIP Champions generated 42.82% of monetary value, while 758 Potential customers and 533 At Risk customers showed clear campaign opportunities.</dd>
               </div>
             </dl>
-            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week7-python" target="_blank" rel="noreferrer">GitHub Link</a>
+            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/portfolio-evidence-final/week7-python" target="_blank" rel="noreferrer">GitHub Link</a>
           </div>
         </article>
 
         <article class="project-card">
           <div class="project-content">
+            <p class="project-label">SQL data quality</p>
             <h3>Customer Data Quality Review</h3>
             <dl>
               <div class="project-detail">
@@ -147,12 +178,13 @@
                 <dd>Duplicate emails, 380 missing email values and 12 city naming variations created reporting and campaign-targeting risk.</dd>
               </div>
             </dl>
-            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week2-sql-data-cleaning" target="_blank" rel="noreferrer">GitHub Link</a>
+            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/portfolio-evidence-final/week2-sql-data-cleaning" target="_blank" rel="noreferrer">GitHub Link</a>
           </div>
         </article>
 
         <article class="project-card">
           <div class="project-content">
+            <p class="project-label">Workflow automation</p>
             <h3>Repeatable Reporting Pipeline</h3>
             <dl>
               <div class="project-detail">
@@ -168,7 +200,7 @@
                 <dd>A modular workflow can extract, transform, validate and export reporting outputs in a repeatable process.</dd>
               </div>
             </dl>
-            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week8-python-api-pipeline" target="_blank" rel="noreferrer">GitHub Link</a>
+            <a class="text-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/portfolio-evidence-final/week8-python-api-pipeline" target="_blank" rel="noreferrer">GitHub Link</a>
           </div>
         </article>
       </div>
