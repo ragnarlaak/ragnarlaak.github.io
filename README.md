@@ -34,7 +34,7 @@ Website visuals are stored in `assets/`.
 Current assets:
 
 - `assets/ragnar-laak-profile.jpg` - Profile image used in the hero section.
-- `assets/powerbi-dashboard.png` - Week 5 Power BI sales dashboard screenshot.
+- `assets/tartu-dashboard.png` - Week 6 Tartu Power BI growth dashboard screenshot.
 - `assets/rfm_revenue_by_segment.png` - RFM revenue-by-segment chart with euro labels.
 
 ## Evidence Sources
@@ -63,10 +63,9 @@ Reproduced from committed RFM export:
 
 Documented evidence, not rerun locally:
 
-- Approximately 10K orders.
-- Approximately EUR 2.91M revenue.
 - 19.08% revenue growth in 2024 versus 2023.
 - Tartu growth of approximately 13%.
+- Tartu revenue of approximately EUR 522K and approximately 2K orders.
 - 128 duplicate email records.
 - 380 missing email values.
 - 12 city naming variations.

@@ -568,7 +568,7 @@ h4 {
 
 .flagship-case {
   display: grid;
-  grid-template-columns: minmax(0, 1.18fr) minmax(380px, 0.82fr);
+  grid-template-columns: 1fr;
 }
 
 .analysis-case {
@@ -591,8 +591,8 @@ h4 {
 }
 
 .dashboard-media {
-  border-right: 1px solid var(--border);
-  padding: 26px;
+  border-bottom: 1px solid var(--border);
+  padding: 20px;
 }
 
 .chart-media {
@@ -608,6 +608,7 @@ h4 {
 }
 
 .dashboard-media img {
+  max-height: 720px;
   border: 1px solid rgba(255, 255, 255, 0.12);
   background: #fff;
 }
@@ -680,7 +681,7 @@ h4 {
 }
 
 .kpi-grid-flagship {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .finding-box {
@@ -761,6 +762,7 @@ h4 {
 }
 
 .flagship-case .kpi-grid div:nth-child(3) strong,
+.flagship-case .kpi-grid div:nth-child(5) strong,
 .analysis-case .kpi-grid div:nth-child(2) strong {
   color: var(--amber);
 }
