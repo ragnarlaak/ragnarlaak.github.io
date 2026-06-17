@@ -386,7 +386,7 @@ h4 {
 .showcase-image {
   padding: 18px;
   background:
-    linear-gradient(135deg, rgba(33, 182, 168, 0.12), rgba(242, 184, 75, 0.045)),
+    linear-gradient(135deg, rgba(33, 182, 168, 0.12), rgba(255, 255, 255, 0.025)),
     #0f141a;
 }
 
@@ -435,7 +435,7 @@ h4 {
 .hero-evidence-panel {
   overflow: hidden;
   background:
-    linear-gradient(180deg, rgba(33, 182, 168, 0.12), rgba(242, 184, 75, 0.035)),
+    linear-gradient(180deg, rgba(33, 182, 168, 0.12), rgba(255, 255, 255, 0.025)),
     var(--surface);
 }
 
@@ -606,7 +606,7 @@ h4 {
   place-items: center;
   min-width: 0;
   background:
-    linear-gradient(135deg, rgba(33, 182, 168, 0.12), rgba(242, 184, 75, 0.04)),
+    linear-gradient(135deg, rgba(33, 182, 168, 0.12), rgba(255, 255, 255, 0.025)),
     #0f141a;
 }
 
@@ -749,6 +749,13 @@ h4 {
   text-align: center;
 }
 
+.issue-grid div:nth-child(2) {
+  border-color: rgba(242, 184, 75, 0.28);
+  background:
+    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.035);
+}
+
 .issue-grid strong {
   display: block;
   color: var(--accent-strong);
@@ -800,6 +807,16 @@ h4 {
 }
 
 .tableau-case .kpi-grid div {
+  border-color: rgba(242, 184, 75, 0.28);
+  background:
+    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.035);
+}
+
+.flagship-case .kpi-grid div:nth-child(3),
+.flagship-case .kpi-grid div:nth-child(5),
+.analysis-case .kpi-grid div:nth-child(2),
+.analysis-case .kpi-grid div:nth-child(3) {
   border-color: rgba(242, 184, 75, 0.28);
   background:
     linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
