@@ -71,8 +71,9 @@ Documented evidence, not rerun locally:
 - Repeat customers represent 82% of known customers.
 - Repeat customers generate 95% of known-customer revenue.
 - Repeat customers spend about 4x more per customer than one-time customers.
-- Tableau repeat-customer uplift scenario estimates €189K under a 10% improvement scenario.
-- The Tableau uplift is a business scenario, not a predictive forecast, and assumes the current average revenue difference between repeat and one-time customers remains stable.
+- Tableau repeat-customer analysis shows repeat customers represent 82% of known customers, generate 95% of known-customer revenue and spend about 4x more per customer than one-time customers.
+- A 10% increase in repeat customers was modeled as a business scenario, estimating €189K in potential uplift.
+- The Tableau uplift is not a predictive forecast and assumes the current average revenue difference between repeat and one-time customers remains stable.
 - Unknown customer records were excluded from the main customer-type comparison.
 - 128 duplicate email records.
 - 380 missing email values.
