@@ -586,38 +586,6 @@ h4 {
   box-shadow: var(--shadow);
 }
 
-.tableau-case {
-  border-color: rgba(242, 184, 75, 0.28);
-}
-
-.tableau-case .case-label,
-.tableau-case h4,
-.tableau-case .project-link {
-  color: var(--amber);
-}
-
-.tableau-case .tool-pill {
-  border-color: rgba(242, 184, 75, 0.38);
-  background: rgba(242, 184, 75, 0.1);
-  color: #ffd98b;
-}
-
-.tableau-case .kpi-grid div {
-  border-color: rgba(242, 184, 75, 0.28);
-  background:
-    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.035);
-}
-
-.tableau-case .kpi-grid strong {
-  color: #ffd98b;
-}
-
-.tableau-case .finding-box {
-  border-left-color: var(--amber);
-  background: rgba(242, 184, 75, 0.085);
-}
-
 .flagship-case {
   display: grid;
   grid-template-columns: 1fr;
@@ -831,6 +799,13 @@ h4 {
   text-align: center;
 }
 
+.tableau-case .kpi-grid div {
+  border-color: rgba(242, 184, 75, 0.28);
+  background:
+    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.035);
+}
+
 .kpi-grid strong {
   display: block;
   margin-bottom: 5px;
@@ -844,6 +819,7 @@ h4 {
 
 .flagship-case .kpi-grid div:nth-child(3) strong,
 .flagship-case .kpi-grid div:nth-child(5) strong,
+.tableau-case .kpi-grid strong,
 .analysis-case .kpi-grid div:nth-child(2) strong,
 .analysis-case .kpi-grid div:nth-child(3) strong {
   color: var(--amber);
