@@ -9,6 +9,8 @@
   --accent: #21b6a8;
   --accent-strong: #75d7cc;
   --amber: #f2b84b;
+  --metric-border: rgba(242, 184, 75, 0.28);
+  --metric-fill: linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)), rgba(255, 255, 255, 0.035);
   --shadow: 0 22px 58px rgba(0, 0, 0, 0.34);
 }
 
@@ -414,14 +416,10 @@ h4 {
 
 .showcase-metrics strong {
   display: block;
-  color: var(--text);
+  color: var(--amber);
   font-size: clamp(1.18rem, 1.8vw, 1.5rem);
   line-height: 1;
   white-space: nowrap;
-}
-
-.showcase-metrics div:nth-child(2) strong {
-  color: var(--amber);
 }
 
 .showcase-metrics span {
@@ -487,10 +485,6 @@ h4 {
   line-height: 1.12;
 }
 
-.evidence-snapshot > div:nth-child(2) strong {
-  color: var(--amber);
-}
-
 .evidence-snapshot p {
   margin-bottom: 0;
   color: var(--muted);
@@ -530,7 +524,7 @@ h4 {
 .metric-value {
   display: block;
   margin-bottom: 5px;
-  color: var(--text);
+  color: var(--amber);
   font-size: 1.8rem;
   font-weight: 800;
   line-height: 1;
@@ -742,29 +736,18 @@ h4 {
   align-content: center;
   justify-items: center;
   min-height: 124px;
-  border: 1px solid rgba(33, 182, 168, 0.26);
+  border: 1px solid var(--metric-border);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.035);
+  background: var(--metric-fill);
   padding: 20px;
   text-align: center;
 }
 
-.issue-grid div:nth-child(2) {
-  border-color: rgba(242, 184, 75, 0.28);
-  background:
-    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.035);
-}
-
 .issue-grid strong {
   display: block;
-  color: var(--accent-strong);
+  color: var(--amber);
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1;
-}
-
-.issue-grid div:nth-child(2) strong {
-  color: var(--amber);
 }
 
 .issue-grid span {
@@ -797,49 +780,22 @@ h4 {
   align-content: center;
   justify-items: center;
   min-height: 96px;
-  border: 1px solid rgba(33, 182, 168, 0.24);
+  border: 1px solid var(--metric-border);
   border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(33, 182, 168, 0.09), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.035);
+  background: var(--metric-fill);
   padding: 14px;
   text-align: center;
-}
-
-.tableau-case .kpi-grid div {
-  border-color: rgba(242, 184, 75, 0.28);
-  background:
-    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.035);
-}
-
-.flagship-case .kpi-grid div:nth-child(3),
-.flagship-case .kpi-grid div:nth-child(5),
-.analysis-case .kpi-grid div:nth-child(2),
-.analysis-case .kpi-grid div:nth-child(3) {
-  border-color: rgba(242, 184, 75, 0.28);
-  background:
-    linear-gradient(180deg, rgba(242, 184, 75, 0.1), rgba(255, 255, 255, 0.03)),
-    rgba(255, 255, 255, 0.035);
 }
 
 .kpi-grid strong {
   display: block;
   margin-bottom: 5px;
-  color: var(--accent-strong);
+  color: var(--amber);
   max-width: 100%;
   font-size: clamp(1.45rem, 2.4vw, 2.05rem);
   font-weight: 900;
   line-height: 1.05;
   overflow-wrap: anywhere;
-}
-
-.flagship-case .kpi-grid div:nth-child(3) strong,
-.flagship-case .kpi-grid div:nth-child(5) strong,
-.tableau-case .kpi-grid strong,
-.analysis-case .kpi-grid div:nth-child(2) strong,
-.analysis-case .kpi-grid div:nth-child(3) strong {
-  color: var(--amber);
 }
 
 .kpi-grid span {
