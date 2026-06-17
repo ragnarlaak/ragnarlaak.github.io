@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Junior BI / Data Analyst portfolio by Ragnar Laak - SQL, Power BI and Python/pandas case studies focused on reporting, customer segmentation and data quality.">
-  <meta property="og:title" content="Ragnar Laak | Junior BI / Data Analyst">
-  <meta property="og:description" content="SQL, Power BI and Python/pandas case studies focused on business reporting, RFM segmentation and data quality.">
+  <meta name="description" content="BI / Data Analyst portfolio by Ragnar Laak - SQL, Power BI, Tableau and Python/pandas case studies focused on reporting, customer analytics and data quality.">
+  <meta property="og:title" content="Ragnar Laak | BI / Data Analyst">
+  <meta property="og:description" content="SQL, Power BI, Tableau and Python/pandas case studies focused on business reporting, customer analytics and data quality.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ragnarlaak.github.io/">
   <meta property="og:image" content="https://ragnarlaak.github.io/assets/tartu-dashboard.png">
-  <title>Ragnar Laak | Junior BI / Data Analyst</title>
+  <title>Ragnar Laak | BI / Data Analyst</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -42,11 +42,11 @@
             <span>RL</span>
             <img src="assets/ragnar-laak-profile.jpg" alt="Portrait of Ragnar Laak">
           </div>
-          <p class="eyebrow">Junior BI / Data Analyst</p>
+          <p class="eyebrow">BI / Data Analyst</p>
         </div>
         <h1>Ragnar Laak</h1>
-        <p class="tool-line">SQL &middot; Power BI &middot; Python/pandas &middot; Business Reporting</p>
-        <p class="hero-copy">I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI and Python/pandas.</p>
+        <p class="tool-line">SQL &middot; Power BI &middot; Tableau &middot; Python/pandas &middot; Business Reporting</p>
+        <p class="hero-copy">I turn business data into clear insights, dashboards and practical recommendations through SQL, Power BI, Tableau and Python/pandas.</p>
         <div class="hero-actions">
           <a class="button primary" href="#projects">View Projects</a>
           <a class="button secondary" href="https://github.com/ragnarlaak" target="_blank" rel="noreferrer">GitHub</a>
@@ -54,6 +54,7 @@
         </div>
         <div class="hero-proof" aria-label="Portfolio evidence summary">
           <span>Power BI dashboards</span>
+          <span>Tableau dashboards</span>
           <span>RFM segmentation</span>
           <span>SQL data quality</span>
           <span>Python pipeline</span>
@@ -62,7 +63,7 @@
       <aside class="hero-evidence-panel" aria-label="Recruiter evidence summary">
         <div class="evidence-panel-header">
           <span>Proof at a glance</span>
-          <strong>4 case studies</strong>
+          <strong>5 case studies</strong>
         </div>
         <div class="evidence-snapshot">
           <div>
@@ -76,6 +77,11 @@
             <p>Python/pandas RFM analysis found 42.82% of monetary value in the highest-value segment.</p>
           </div>
           <div>
+            <span class="snapshot-label">Customer value answer</span>
+            <strong>95% repeat revenue share</strong>
+            <p>Tableau dashboard showed repeat customers generate most known-customer revenue and a EUR 188.8K scenario opportunity.</p>
+          </div>
+          <div>
             <span class="snapshot-label">Data-quality action</span>
             <strong>128 duplicate emails</strong>
             <p>SQL checks identified duplicate, missing and inconsistent customer fields before reporting use.</p>
@@ -84,6 +90,7 @@
         <div class="evidence-panel-footer">
           <span>SQL</span>
           <span>Power BI</span>
+          <span>Tableau</span>
           <span>Python/pandas</span>
           <span>Business actions</span>
         </div>
@@ -161,6 +168,51 @@
             </div>
             <p class="evidence-note">Evidence status: documented in dashboard screenshots and project README files.</p>
             <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/tree/main/week6-data-storytelling" target="_blank" rel="noreferrer">View Tartu dashboard evidence</a>
+          </div>
+        </article>
+
+        <article class="case-study analysis-case">
+          <div class="case-content">
+            <div class="project-title-row">
+              <div>
+                <p class="case-label">Tableau Business Intelligence Case Study</p>
+                <h3>Repeat Customer Revenue Impact Analysis</h3>
+              </div>
+              <div class="pill-row">
+                <span class="tool-pill">Tableau</span>
+                <span class="tool-pill">Business Intelligence</span>
+                <span class="tool-pill">Customer Analytics</span>
+                <span class="tool-pill">Scenario Analysis</span>
+                <span class="tool-pill">Data Storytelling</span>
+              </div>
+            </div>
+            <p class="project-question">Tableau dashboard comparing repeat and one-time customer value, showing that repeat customers generate 95% of known-customer revenue and a 10% repeat-customer improvement could create an estimated &euro;188.8K uplift opportunity.</p>
+            <h4>Business question</h4>
+            <p class="project-question">How much revenue value comes from repeat customers, and what could a 10% repeat-customer improvement be worth?</p>
+            <div class="kpi-grid">
+              <div><strong>82%</strong><span>known customers are repeat customers</span></div>
+              <div><strong>95%</strong><span>known-customer revenue from repeat customers</span></div>
+              <div><strong>4x</strong><span>higher average revenue per repeat customer</span></div>
+              <div><strong>&euro;188.8K</strong><span>estimated uplift under a 10% improvement scenario</span></div>
+            </div>
+            <div class="finding-box">
+              <h4>Key insights</h4>
+              <p>Repeat customers are the main known-customer revenue engine, generating 95% of known-customer revenue and spending around 4x more per customer than one-time customers.</p>
+            </div>
+            <div class="case-block">
+              <h4>Scenario method</h4>
+              <p>Customers were classified as one-time or repeat based on distinct order count. Average revenue per customer was compared between those groups, then the 10% improvement scenario multiplied additional repeat customers by the revenue difference between repeat and one-time customers.</p>
+            </div>
+            <div class="case-block">
+              <h4>Business recommendation</h4>
+              <p>Focus retention efforts on converting more one-time customers into repeat customers, because repeat customers generate significantly higher average revenue and dominate known-customer revenue.</p>
+            </div>
+            <p class="evidence-note">Scenario note: the &euro;188.8K uplift is a business scenario, not a predictive forecast. Unknown customer records were excluded from the main customer-type comparison.</p>
+            <p class="evidence-note">Demonstrated: Tableau dashboard building, KPI design, customer revenue analysis, scenario modeling, business storytelling and data-quality awareness.</p>
+            <a class="project-link" href="https://github.com/ragnarlaak/DACA-portfolio/blob/main/extra-learning/tableau/repeat-customer-revenue-impact-analysis.md" target="_blank" rel="noreferrer">View Tableau case study evidence</a>
+          </div>
+          <div class="case-media chart-media">
+            <img src="assets/repeat_customer_revenue_impact_tableau.png" alt="Repeat Customer Revenue Impact Analysis Tableau dashboard screenshot" loading="lazy">
           </div>
         </article>
 
@@ -279,12 +331,15 @@
       <div class="tag-list" aria-label="Skills">
         <span>SQL</span>
         <span>Power BI</span>
+        <span>Tableau</span>
         <span>Python / pandas</span>
         <span>PostgreSQL</span>
         <span>Supabase</span>
         <span>Data Cleaning</span>
         <span>KPI Reporting</span>
+        <span>Customer Revenue Analysis</span>
         <span>Customer Segmentation</span>
+        <span>Scenario Modeling</span>
         <span>Data Pipelines</span>
         <span>Dashboard Storytelling</span>
         <span>GitHub Documentation</span>
