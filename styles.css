@@ -175,27 +175,44 @@ img {
 .profile-photo {
   position: relative;
   display: grid;
-  width: 86px;
-  height: 86px;
+  width: 104px;
+  height: 104px;
   flex: 0 0 auto;
   place-items: center;
   overflow: hidden;
-  border: 1px solid rgba(117, 215, 204, 0.34);
-  border-radius: 18px;
+  border: 1px solid rgba(117, 215, 204, 0.5);
+  border-radius: 24px;
   background:
-    linear-gradient(135deg, rgba(33, 182, 168, 0.2), rgba(17, 27, 45, 0.88)),
+    linear-gradient(135deg, rgba(33, 182, 168, 0.22), rgba(17, 27, 45, 0.9)),
     var(--surface);
-  box-shadow: 0 18px 42px rgba(0, 0, 0, 0.24);
+  box-shadow:
+    0 18px 42px rgba(0, 0, 0, 0.3),
+    0 0 0 6px rgba(33, 182, 168, 0.07);
   color: var(--accent-strong);
   font-weight: 800;
+}
+
+.profile-photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(11, 18, 32, 0.24)),
+    linear-gradient(135deg, rgba(33, 182, 168, 0.2), transparent 56%);
+  mix-blend-mode: multiply;
+  pointer-events: none;
 }
 
 .profile-photo::after {
   content: "";
   position: absolute;
   inset: 0;
+  z-index: 2;
   border-radius: inherit;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    inset 0 -20px 34px rgba(11, 18, 32, 0.28);
   pointer-events: none;
 }
 
@@ -210,8 +227,11 @@ img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 50% 28%;
+  object-position: 50% 50%;
   opacity: 0;
+  filter: grayscale(1) contrast(1.18) brightness(0.86);
+  transform: scale(2.12);
+  transform-origin: 48% 42%;
   transition: opacity 180ms ease;
 }
 
@@ -792,7 +812,8 @@ h4 {
 
 .flagship-case .kpi-grid div:nth-child(3) strong,
 .flagship-case .kpi-grid div:nth-child(5) strong,
-.analysis-case .kpi-grid div:nth-child(2) strong {
+.analysis-case .kpi-grid div:nth-child(2) strong,
+.analysis-case .kpi-grid div:nth-child(3) strong {
   color: var(--amber);
 }
 
@@ -930,9 +951,9 @@ h4 {
   }
 
   .profile-photo {
-    width: 76px;
-    height: 76px;
-    border-radius: 16px;
+    width: 88px;
+    height: 88px;
+    border-radius: 20px;
   }
 
   .hero-panel {
@@ -1032,8 +1053,8 @@ h4 {
   }
 
   .profile-photo {
-    width: 68px;
-    height: 68px;
+    width: 76px;
+    height: 76px;
   }
 
   h2 {
