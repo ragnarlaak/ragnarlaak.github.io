@@ -68,6 +68,8 @@ Documented evidence, not rerun locally:
 - 19.08% revenue growth in 2024 versus 2023.
 - Tartu growth of approximately 13%.
 - Tartu revenue of approximately EUR 522K and approximately 2K orders.
+- The Tableau repeat-customer project was completed independently outside course assignments, using the UrbanStyle dataset.
+- Tableau analysis, dashboard design, KPI framing and scenario modeling were created by Ragnar Laak.
 - Repeat customers represent 82% of known customers.
 - Repeat customers generate 95% of known-customer revenue.
 - Repeat customers spend about 4x more per customer than one-time customers.
