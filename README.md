@@ -35,7 +35,7 @@ Current assets:
 
 - `assets/ragnar-laak-profile.jpg` - Profile image used in the hero section.
 - `assets/tartu-dashboard.png` - Week 6 Tartu Power BI growth dashboard screenshot.
-- `assets/repeat_customer_revenue_impact_tableau.png` - Tableau repeat customer revenue impact dashboard screenshot.
+- `assets/repeat-customer-revenue-impact-tableau.png` - Tableau repeat customer revenue impact dashboard screenshot.
 - `assets/rfm_revenue_by_segment.png` - RFM revenue-by-segment chart with euro labels.
 
 ## Evidence Sources
@@ -71,7 +71,9 @@ Documented evidence, not rerun locally:
 - Repeat customers represent 82% of known customers.
 - Repeat customers generate 95% of known-customer revenue.
 - Repeat customers spend about 4x more per customer than one-time customers.
-- Tableau repeat-customer uplift scenario estimates EUR 188.8K under a 10% improvement scenario.
+- Tableau repeat-customer uplift scenario estimates €189K under a 10% improvement scenario.
+- The Tableau uplift is a business scenario, not a predictive forecast, and assumes the current average revenue difference between repeat and one-time customers remains stable.
+- Unknown customer records were excluded from the main customer-type comparison.
 - 128 duplicate email records.
 - 380 missing email values.
 - 12 city naming variations.
