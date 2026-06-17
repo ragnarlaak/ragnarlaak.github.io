@@ -696,6 +696,12 @@ h4 {
   color: var(--muted);
 }
 
+.finding-box strong,
+.evidence-note strong {
+  color: var(--text);
+  font-weight: 800;
+}
+
 .issue-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -749,15 +755,18 @@ h4 {
   min-height: 82px;
   border: 1px solid rgba(33, 182, 168, 0.24);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.035);
-  padding: 12px;
+  background:
+    linear-gradient(180deg, rgba(33, 182, 168, 0.09), rgba(255, 255, 255, 0.03)),
+    rgba(255, 255, 255, 0.035);
+  padding: 14px;
 }
 
 .kpi-grid strong {
   display: block;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   color: var(--accent-strong);
-  font-size: clamp(1.12rem, 1.8vw, 1.5rem);
+  font-size: clamp(1.55rem, 2.8vw, 2.25rem);
+  font-weight: 900;
   line-height: 1.05;
 }
 
