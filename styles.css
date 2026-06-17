@@ -230,8 +230,8 @@ img {
   object-position: 50% 50%;
   opacity: 0;
   filter: grayscale(1) contrast(1.18) brightness(0.86);
-  transform: scale(2.12);
-  transform-origin: 48% 42%;
+  transform: scale(1.9);
+  transform-origin: 48% 36%;
   transition: opacity 180ms ease;
 }
 
